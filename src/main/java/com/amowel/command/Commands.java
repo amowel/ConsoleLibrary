@@ -192,7 +192,7 @@ public class Commands implements CommandMarker {
         for (int i = 1; i <= bookList.size(); i++) {
             System.out.println(i + ". " + bookList.get(i - 1).getInfo());
         }
-        System.out.println("> ");
+        System.out.print("> ");
         String number = sc.nextLine();
         System.out.println(number);
         while (number.isEmpty() || Ints.tryParse(number) == null || Ints.tryParse(number) <= 0 || Ints.tryParse(number) > bookList.size()) {
