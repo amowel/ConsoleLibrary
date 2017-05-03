@@ -1,0 +1,24 @@
+help add book
+help
+add author George Martin
+update book kek --a Haeik --t 'White Fang'
+update book kek --a Haeik --t 'White Fang'
+get book
+get book --c 3
+get author
+get book
+add book 
+help add book
+add book --a fail --t hello
+add author Stiven King
+update author test --n test1
+// amowel 1.2.0.RELEASE log opened at 2017-05-03 02:40:00
+update author test --n test1
+update author test1 --n test1
+update author test1 --n test1
+update author Oruell --n test1
+update author lil --n test1
+update author fail --n test1
+add book --a fail --t unknown
+// [failed] add book --a fail --t unknown
+// amowel 1.2.0.RELEASE log opened at 2017-05-03 02:50:01
